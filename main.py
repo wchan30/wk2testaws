@@ -40,7 +40,7 @@ ratings['Win_Pct'] = ratings['W'] / (ratings['W'] + ratings['L'])
 ratings = ratings.sort_values(by='Win_Pct', ascending=False)
 
 # Style the plot
-plt.title('NBA Offensive and Defensive Ratings Through March 5, 2025', 
+plt.title('NBA Offensive and Defensive Ratings', 
           fontsize=16, pad=20, fontweight='bold')
 plt.xlabel('Offensive Ratings', fontsize=14)
 plt.ylabel('Defensive Ratings', fontsize=14)
